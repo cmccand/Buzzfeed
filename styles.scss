@@ -1,0 +1,147 @@
+body {
+  margin-left:10%;
+  .small {
+    width:42%;
+    border: 1px solid lightgray;
+  }
+  .med {
+    width:55%;
+  }
+}
+
+header {
+  .logo {
+    width: 38%;
+    padding-top:1%;
+  }
+
+  .interview {
+    display:inline-block;
+    margin-left:10%;
+    h3 {
+      color:black;
+    }
+    a {
+      text-decoration:none;
+      outline:0;
+      border:none;
+      &:visited {
+        text-decoration:none;
+        color:black;
+        border:none;
+      }
+      &:active {
+        text-decoration:none;
+        color:black;
+        border:none;
+      }
+      &:focus {
+        text-decoration:none;
+      }
+    }
+    button {
+      border-radius:50%;
+      background-color:yellow;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      font-weight:900;
+      border: none;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+      &:hover {
+        background-color: white;
+        border: solid 1px black;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+      }
+    }
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+  }
+
+  h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+  }
+
+  ul.nav {
+    background-color: #EAEAEA;
+    margin-left:0;
+    padding-top:2%;
+    padding-left:2%;
+    padding-bottom:2%;
+    .news {
+      padding:1%;
+      padding-right:0;
+    }
+    li {
+      display:inline-block;
+      list-style-type:none;
+      color: #111111;
+      font-family: 'Roboto', sans-serif;
+      font-size:2vw;
+      padding:1%;
+      padding-right:4%;
+    }
+  }
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #929292;
+    margin-bottom:0;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #EE3322;
+    margin-top:0;
+    img {
+      width:4%;
+      height:4%;
+    }
+  }
+}
+
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vw;
+}
+
+.name {
+  color: #0077EE;
+}
+
+.container {
+  img {
+    display:inline-block;
+    /*   float:left; */
+    width:5%;
+    /* height:10vh; */
+  }
+  .byline {
+    display:inline-block;
+    padding-left:1%;
+    padding-top:1%;
+    vertical-align:top;
+    h5 {
+      padding:0;
+      margin:0;
+    }
+    .staff {
+      font-weight:300;
+    }
+  }
+
+}

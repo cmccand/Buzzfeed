@@ -1,0 +1,113 @@
+body {
+  margin-left: 10%; }
+  body .small {
+    width: 42%;
+    border: 1px solid lightgray; }
+  body .med {
+    width: 55%; }
+
+header .logo {
+  width: 38%;
+  padding-top: 1%; }
+header .interview {
+  display: inline-block;
+  margin-left: 10%; }
+  header .interview h3 {
+    color: black; }
+  header .interview a {
+    text-decoration: none;
+    outline: 0;
+    border: none; }
+    header .interview a:visited {
+      text-decoration: none;
+      color: black;
+      border: none; }
+    header .interview a:active {
+      text-decoration: none;
+      color: black;
+      border: none; }
+    header .interview a:focus {
+      text-decoration: none; }
+  header .interview button {
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); }
+    header .interview button:hover {
+      background-color: white;
+      border: solid 1px black;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0); }
+header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vw; }
+header h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw; }
+header ul.nav {
+  background-color: #EAEAEA;
+  margin-left: 0;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-bottom: 2%; }
+  header ul.nav .news {
+    padding: 1%;
+    padding-right: 0; }
+  header ul.nav li {
+    display: inline-block;
+    list-style-type: none;
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    padding: 1%;
+    padding-right: 4%; }
+header h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #929292;
+  margin-bottom: 0; }
+header p {
+  font-family: 'Roboto', sans-serif;
+  color: #EE3322;
+  margin-top: 0; }
+  header p img {
+    width: 4%;
+    height: 4%; }
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vw; }
+
+.name {
+  color: #0077EE; }
+
+.container img {
+  display: inline-block;
+  /*   float:left; */
+  width: 5%;
+  /* height:10vh; */ }
+.container .byline {
+  display: inline-block;
+  padding-left: 1%;
+  padding-top: 1%;
+  vertical-align: top; }
+  .container .byline h5 {
+    padding: 0;
+    margin: 0; }
+  .container .byline .staff {
+    font-weight: 300; }
+
+/*# sourceMappingURL=styles.css.map */
